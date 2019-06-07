@@ -1,18 +1,28 @@
 a {
 	font-family: Arial;
 	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+}
+
+a:hover {
 	text-decoration: underline;
 }
 
-.underline:hover {
-	text-decoration: underline;
+
+.right{
+	padding-left: 30px:
+
 }
 
 .top-link {
-	color: #000;
 	padding-left: 15px;
-	opacity: 0.75;
 	
+}
+
+.top-link-right { 
+	padding-left: 300px;
 }
 
 .logo{
@@ -41,7 +51,14 @@ a {
   height: 40px; 
 }
 
-.top-bar {
+.top-left {
+	position: fixed;
+	top: 16px;
+	width: 100%;
+	min-width: 980px;
+}
+
+.top-right {
 	position: fixed;
 	top: 16px;
 	width: 100%;
