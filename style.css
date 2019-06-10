@@ -1,3 +1,7 @@
+input:focus {
+	outline:none;
+}
+
 a {
 	font-family: Arial;
 	font-size: 14px;
