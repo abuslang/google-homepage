@@ -22,7 +22,13 @@ a:hover {
 }
 
 .top-link-right { 
-	padding-left: 300px;
+	float: right;
+	padding-right: 20px;
+	
+}
+
+.chas {
+	padding-right: 15px;
 }
 
 .logo{
